@@ -1,7 +1,6 @@
 package com.java.collections;
 
 import java.util.Arrays;
-import java.util.List;
 
 public class ArrayBasicsSorting {
 
@@ -15,12 +14,6 @@ public class ArrayBasicsSorting {
 		System.out.println("After Sorting");
 		for(int i:arr) {
 			System.out.println(i);
-		}
-		Object[] companies = {12, "Hari", 'R', 35000.98};
-	    //Company[] companies = {12, "Hari", 'R', 35000.98};
-		Arrays.sort(companies);
-		for(Object company:companies) {
-			System.out.println(company);
 		}
 	}
 
